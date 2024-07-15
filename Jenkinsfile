@@ -18,6 +18,7 @@ pipeline{
         echo "JENKINS_URL is ${env.JENKINS_URL}"
         echo "BUILD_URL is ${env.BUILD_URL}"
         echo "JOB_URL is ${env.JOB_URL}"
+        echo "CHANGE_ID is ${env.CHANGE_ID}"
       }
     }
   }
